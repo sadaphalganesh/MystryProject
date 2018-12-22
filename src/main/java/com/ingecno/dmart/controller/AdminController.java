@@ -6,12 +6,13 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class AdminController {
-
+/*
 	@RequestMapping(path="/login")
 	public String helloMethod() {
 		return "loginPage";
-	}
+	}*/
 	
+
 	
 	
 	
