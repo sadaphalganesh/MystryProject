@@ -8,11 +8,11 @@ import org.springframework.web.servlet.ModelAndView;
 public class AdminController {
 
 	@RequestMapping(path="/login")
-	public String helloMethod() {
+	public String helloMethodinJava() {
 		return "loginPage";
 	}
 	
-
+//line is changed
 	
 	
 	
