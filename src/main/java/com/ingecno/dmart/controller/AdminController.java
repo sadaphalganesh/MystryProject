@@ -10,9 +10,9 @@ public class AdminController {
 	@RequestMapping(path="/login")
 	public String helloMethod() {
 		return "loginPage";
-	}*/
+	}
 	
-
+*/
 	
 	
 	
