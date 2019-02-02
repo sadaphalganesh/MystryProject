@@ -16,33 +16,13 @@ import com.ingecno.dmart.model.UserDetails;
 @Controller
 public class LoginContoller {
 	
-	public User getUser() {
-		return user;
-	}
 
-
-	public void setUser(User user) {
-		this.user = user;
-	}
-
-
-	public UserDetails getUserDetails() {
-		return userDetails;
-	}
-
-
-	public void setUserDetails(UserDetails userDetails) {
-		this.userDetails = userDetails;
-	}
 
 	@Autowired
 	User user;
 	
 	@Autowired
 	UserDetails userDetails;
-	
-	
-	
 	
 
 	@RequestMapping(path="/login")
