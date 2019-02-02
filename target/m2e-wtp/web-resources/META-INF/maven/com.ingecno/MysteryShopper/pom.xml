@@ -214,7 +214,16 @@
 <version>1.5.5</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.1</version>
+</dependency>
   </dependencies>
+  
+  
+  
   <build>
     <finalName>MysteryShopper</finalName>
   </build>
